@@ -97,3 +97,11 @@ int sign_raw_transaction(int inputindex, char* incomingrawtx, char* scripthex, i
 
 /*Store a raw transaction that's already formed, and give it a txindex in memory. (txindex) is returned as int. */
 int store_raw_transaction(char* incomingrawtx);
+
+
+/* Other helpers
+--------------------------------------------------------------------------
+*/
+
+/* Get the moon */
+char* moon();

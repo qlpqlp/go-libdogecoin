@@ -207,3 +207,7 @@ func W_store_raw_transaction(incoming_raw_tx string) (result int) {
 	return
 }
 
+func W_moon() (result string) {
+	result = C.GoString(C.moon())
+	return
+}
